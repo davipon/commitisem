@@ -1,5 +1,5 @@
 <h1 align="center">commitisem</h1>
-<h2 align="center">Easily add Conventional Commits and SemVer integrations to JS project.</h2>
+<h3 align="center">Easily add Conventional Commits and SemVer integrations to JS project.</h3>
 
 ### 🙋 What is this?
 
@@ -55,4 +55,4 @@ npx @preset/cli apply @davipon/commitisem --package=pnpm
 
 ### ✨ Demo
 
-![demo.gif](demo.gif))
+![demo.gif](demo.gif)
