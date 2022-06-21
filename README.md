@@ -1,19 +1,21 @@
 <h1 align="center">commitisem</h1>
-<h5 align="center">Easily add Conventional Commits and SemVer integrations to JS project.</h5>
+<h2 align="center">Easily add Conventional Commits and SemVer integrations to JS project.</h2>
 
 ### 🙋 What is this?
 
-I found myself repeatedly adding **Conventional Commits** & **SemVer** integrations to my new JS project. So I decided to write a preset.
+I found myself repeatedly adding **Conventional Commits** & **SemVer** integrations to my new JS project.
 
-I also wrote an article about my setup:
+So I decided to write a preset.
 
-[Add Commitlint, Commitizen, Standard Version, and Husky to SvelteKit Project](https://davipon.hashnode.dev/add-commitlint-commitizen-standard-version-and-husky-to-sveltekit-project)
+I also wrote an article about my setup: [Add Commitlint, Commitizen, Standard Version, and Husky to SvelteKit Project](https://davipon.hashnode.dev/add-commitlint-commitizen-standard-version-and-husky-to-sveltekit-project)
 
 ### 🛠 Usage
 
+⚠️ Make sure your repository is initialized before you start.
+
 ```bash
 # In your JS project
-npx @preset/cli apply @davipon/commitisem
+npx @preset/cli apply davipon/commitisem
 ```
 
 > This is not a template, but a preset to add integrations to your project.
@@ -50,3 +52,7 @@ npx @preset/cli apply @davipon/commitisem --package=yarn
 #pnpm
 npx @preset/cli apply @davipon/commitisem --package=pnpm
 ```
+
+### ✨ Demo
+
+![demo.gif](demo.gif))
