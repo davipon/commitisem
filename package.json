@@ -1,10 +1,21 @@
 {
-	"private": true,
-	"author": "davipon <david19930304@gmail.com>",
-	"license": "MIT",
-	"preset": "preset.ts",
-	"devDependencies": {
-		"@preset/core": "^0.6.0",
-		"@types/node": "^18.0.0"
-	}
+  "private": true,
+  "name": "@davipon/commitisem",
+  "description": "Easily add Conventional Commits and SemVer integrations to JS project",
+  "author": "davipon <davipondev@gmail.com>",
+  "keywords": [
+    "conventional-commits",
+    "semver",
+    "commitizen",
+    "commitlint",
+    "standard-version"
+  ],
+	"repository": "github.com/davipon/commitisem",
+	"bugs": "https://github.com/davipon/commitisem/issues",
+  "license": "MIT",
+  "preset": "preset.ts",
+  "devDependencies": {
+    "@preset/core": "^0.6.0",
+    "@types/node": "^18.0.0"
+  }
 }
