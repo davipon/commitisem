@@ -22,7 +22,7 @@ export default definePreset({
         '@commitlint/cz-commitlint',
         'commitizen',
         'husky',
-        'inquirer',
+        'inquirer@8.2.4',
         'standard-version'
       ],
 			packageManager: context.options.package,

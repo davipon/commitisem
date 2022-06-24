@@ -1,7 +1,7 @@
 <h1 align="center">commitisem</h1>
 <h3 align="center">Easily add Conventional Commits and SemVer integrations to JS project.</h3>
 
-### 🙋 What is this?
+### 🙋 Why this?
 
 I found myself repeatedly adding **Conventional Commits** & **SemVer** integrations to my new JS project.
 
@@ -16,6 +16,8 @@ I also wrote an article about my setup: [Add Commitlint, Commitizen, Standard Ve
 ```bash
 # In your JS project
 npx @preset/cli apply davipon/commitisem
+
+# If this is your first time using @preset, you'd be asked to install it first.
 ```
 
 > This is not a template, but a preset to add integrations to your project.
