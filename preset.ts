@@ -1,10 +1,5 @@
-import { NodePackageManager } from "@preset/core"
-
 export default definePreset({
   name: 'commitisem',
-	options: {
-		package: <NodePackageManager>'npm'
-	},
 	postInstall: ({ hl }) => [
 		`This preset has added/ updated ${hl('package.json')} & ${hl('.husky')} (also lock file depends on your package manager)`,
 		``,
@@ -29,7 +24,6 @@ export default definePreset({
         'inquirer@8.2.4',
         'standard-version'
       ],
-			packageManager: context.options.package,
       dev: true
     })
     await editFiles({

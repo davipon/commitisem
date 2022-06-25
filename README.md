@@ -39,22 +39,6 @@ This preset will add the following to your project:
   - `"release:patch": "standard-version --release-as patch --no-verify"`
 - `.husky/commit-msg`: activate & add `commit-msg` git hook
 
-### ⚙️ Option
-
-Default use `npm` to install the packages.
-
-You can also specify the package manager to use:
-```bash
-# npm
-npx @preset/cli apply @davipon/commitisem --package=npm
-
-# yarn
-npx @preset/cli apply @davipon/commitisem --package=yarn
-
-#pnpm
-npx @preset/cli apply @davipon/commitisem --package=pnpm
-```
-
 ### ✨ Demo
 
 ![demo.gif](demo.gif)
