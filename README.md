@@ -15,7 +15,7 @@ I also wrote an article about my setup: [Add Commitlint, Commitizen, Standard Ve
 
 ```bash
 # In your JS project
-npx @preset/cli apply davipon/commitisem
+npx @preset/cli davipon/commitisem
 
 # If this is your first time using @preset, you'd be asked to install it first.
 ```
