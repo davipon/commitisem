@@ -11,7 +11,7 @@ I also wrote an article about my setup: [Add Commitlint, Commitizen, Standard Ve
 
 ### 🛠 Usage
 
-⚠️ Make sure your repository is initialized before you start.
+⚠️ Make sure your repository is initialized (`git init` or `git clone`) before you start.
 
 ```bash
 # In your JS project

@@ -13,6 +13,10 @@ export default definePreset({
 		`${hl('CHANGELOG.md')} will be generated once you release a new version using ${hl('npm run release:(major|minor|patch)')}`,
 	],
   handler: async (context) => {
+    await extractTemplates({
+      title: 'Extract config files',
+			extractDotFiles: true
+    })
     await installPackages({
       title: 'Installing packages',
       for: 'node',
@@ -41,15 +45,7 @@ export default definePreset({
             'release:major': 'standard-version --release-as major --no-verify',
             'release:minor': 'standard-version --release-as minor --no-verify',
             'release:patch': 'standard-version --release-as patch --no-verify'
-          },
-					"config": {
-						"commitizen": {
-							"path": "cz-conventional-changelog"
-						}
-					},
-					"commitlint": {
-						"extends": ["@commitlint/config-conventional"]
-					}
+          }
         })
       }
     })
